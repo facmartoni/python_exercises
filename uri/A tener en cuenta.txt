@@ -1,0 +1,11 @@
+*Para problemas que terminan con EOF:
+
+while(True):
+        try:
+	    pass
+        except:
+            break
+
+*No usar .format() para mostrar variables en strings. Hacerlo así: 
+
+print('Caso #%d: ' % count)
